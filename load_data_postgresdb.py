@@ -12,7 +12,7 @@ with open(json_file_path, 'r') as file:
 conn_params = {
     'dbname': 'exec_condo_db',
     'user': 'postgres',
-    'password': 'Iamlegend1@',
+    'password': '*********',
     'host': '127.0.0.1',
     'port': '5432'
 }
