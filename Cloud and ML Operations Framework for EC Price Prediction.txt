@@ -1,0 +1,28 @@
+Cloud Architecture Overview
+
+AWS S3: Stores raw data.
+AWS RDS (Postgres): Manages transactional data.
+AWS EC2: Hosts the application server and ML model.
+AWS ECS: Deploys the Python API.
+AWS API Gateway: Manages API calls.
+AWS ELB: Balances incoming traffic.
+
+
+Model Monitoring Metrics
+
+Metrics: Track prediction accuracy, response time, and error rates.
+Tools: Use AWS CloudWatch to monitor metrics and set alarms.
+
+
+Automation of Feature Engineering and Model Selection
+
+AWS Glue: Automates data preparation.
+AWS SageMaker: Automates model tuning.
+
+
+Model Governance Processes
+
+Version Control: Use Git for code and dataset tracking.
+Access Controls: Implement IAM roles for secure access.
+Bias Testing: Employ SageMaker Clarify for fairness checks.
+Model Auditing: Maintain logs for compliance and traceability.
