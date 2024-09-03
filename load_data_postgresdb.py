@@ -2,7 +2,7 @@ import json
 import psycopg2
 
 # Path to the JSON file
-json_file_path = r'C:\Users\Reena\OneDrive\Desktop\mlproject\5yrs_Transaction.json'
+json_file_path = '5yrs_Transaction.json'
 
 # Load the JSON data
 with open(json_file_path, 'r') as file:
